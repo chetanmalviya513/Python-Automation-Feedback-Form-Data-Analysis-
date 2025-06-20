@@ -1,1 +1,326 @@
 
+Case Study: Streamlining Feedback Form Data Analysis Using Python Automation
+
+The feedback form automated data analysis case study is for an institute. The institute offers numerous online courses. The institute provides a feedback form to all participants at the end of the course. This feedback form includes questions about faculty skills, course usefulness, and whether or not sufficient course materials are supplied. The institute asked these kinds of multiple-choice questions. All participating members are expected to complete the feedback form. The feedback form is presented after each course, and the questions are the same each time. After gathering replies from all members, the analysis and visualization are done manually in MS Excel, which can take up to four hours. This project is supervised by a technical officer, and the institute wants software that automatically processes data, analyses it, and visualizes it based on feedback forms.
+This form is completed after reviewing the institute's data. The average ratings for all faculty skills are derived using the feedback. Direct input from instructors on skills provides qualitative data, whereas average assessments are quantitative. To accomplish this, transform the qualitative response data prior to calculating the average rating. Transpose the faculty data rows and columns, filter the relevant data, and do various types of analysis. After assessing several objective-type questions, present the facts in percentages based on the institute's objectives.
+
+This feedback form provides response data every time data is manually analyzed, which takes 4 hours. The same data analysis takes a long time, and this process is a complete waste of time for the institute's technical personnel. This subject presents a significant challenge for institutes in terms of data processing and visualization following outcomes presentation in automation.
+Institute input from automatic data analysis difficulties accepted after preparing a plan for how to tackle this problem of the institute and project handle tools and techniques using any sort of query I have searched and ready for a plan. To begin, this project employs the critical path technique of project management, and all project schedule planning is generated and managed step by step.
+This project feedback form automates data analysis in the Python programming language. Python is a powerful programming language that employs Python techniques for data analysis, filtering, cleaning, shortening, and large amounts of data analysis and visualization. Python libraries are used, and the script is ready for execution after uploading feedback from the response data file, automating data analysis, and visualizing after presenting the results.  
+
+
+Challenges of the Project
+One of the most tough issues in this project is dealing with feedback form response data. After downloading the response file, it must be uploaded for data processing and visualization, followed by the automated display of results. The project has numerous problems, but some of the most challenging include screening the data after converting qualitative data to quantitative data, and then swapping rows and columns with faculty data.
+
+Fig 1.1: Feedback form response data
+
+
+Fig 1.2: Feedback form response data
+
+Fig 1.1 and Fig 1.2 Feedback form response data This data structure tabular form data response in Google sheet and after data download in XLSX or CSV file and after import of MS Excel and manually data analysis in MS Excel but this type of data analysis every time same data analysis waste of time.  
+
+Before Automation Manually Data analysis in MS Excel
+Feedback form fill all applicants use the institute course after this form data is stored in a Google Sheets file after this data is import in MS Excel tool and data analysis operations are performed like data cleaning, data manipulation, replacement, transformation, and advance function of used in MS excel and final result presenting. But this process of all projects is handled in 4 hours. This Feedback form is filled out by all institutes that participate in the course, and it is filled out again after the course is over, however the Feedback form contains the same data and questions every time, which is a problem with this institute.
+This feedback form should be filled out every time after data analysis and result presentation of this project, which should take no more than 4 hours. However, there is no need for any software to fill out this feedback form after result automation, as only MS Excel is used for data analysis. This feedback form is used every time data is analysed in Excel, which wastes institute time.
+Institute Feedback form for automating data analysis I understand the problem. I accept this challenge, and this project technically evaluates how to manage this project's data analysis in automating work on this Feedback form, including data analysis and visualization after presenting the results.  
+
+
+Use of Critical Path Method Project Management Technique:
+Use of the Critical Path Method with Project Management Technique This method's most crucial component is managing the project step-by-step, managing the task duration after the new task timing and date, and managing all project tasks between time durations and project needs. This method is used after this task, showing all tasks and task details step-by-step, using a Gantt chart to visualize all task start times, task end times, and task duration after new task details.
+Automating Feedback Form Data Analysis with Python: Step by Step Guide
+This Gantt Chart Presenting Feedback form data analysis step-by-step guides all details shown in the chart. In this project I have used in Critical Path Method for Feedback from data analysis this method is very important for project management tasks can’t be between any task so better solutions in follow-up tasks are step-by-step need of project start date and end date duration of day first task complete after second task start in this project Gantt chart clear visualize in the task of details which task to do first after the task. The following are tasks in Feedback form data analysis project task details in this Gantt chart show all details of chart need of project requirement.
+Fig 1.3: Gantt Chart
+
+
+Step 1: Planning of Project Schedule
+Step 2: Import Feedback form the data
+Step 3: The data Filter needs useful data and store DataFrame
+Step 4: Data Transform Qualitative to Quantitative Data
+Step 5: Row & Column Transpose
+Step 6: Operation Perform in Faculty Rating 
+Step 7: Visualizing and Presenting Results
+
+Fig 1.3 Gantt Chart Feedback form all details of the task of the project This project task name total task schedule of task step of complete in the project all project handle in step by step so I am guided in step by step introduce in this project.
+Step 1: Planning of Project Schedule
+Research Methodology
+Automating Feedback form data analysis with Python automation firstly this project all task schedule time and need of software requirements and all task step by step planning. Feedback form the project how many steps of handled and any need for the project to handle data analysis and visualization after the results presenting which software this project automates data analysis.  
+	
+Feedback form data analysis I need of best environment in Python I have used Jupyter Notebook this notebook all Python script run of file show in a notebook and this run of file download and save of file and share of this file any third person but command line run of the file only this time show but command line close after all run of file delete this project. Need of all run of Python script save after share in this file third person need of project handle I install Jupyter Notebook go to the command line after writing a script in Pip install Jupyter Notebook then download & install process in command line after ready for Jupyter Notebook this platform used for this project in automating Feedback form data analysis.
+Python and Jupyter Notebook are installed after operating this automating Feedback Form data analysis project and data analysis in Python firstly challenge in data import in CSV file and after this data describe and other activity performed so Python DataFrame handle and structure data, manipulation, describe Time series data and XLSX, CSV and other file Tabular data import in Python Pandas libraries. Pandas install in Python pip install pandas write a script in the command line.
+After data analysis, data is present in a bar graph but a bar graph directly created in Python is not possible so this visualization is used in Python Famous libraries Matplotlib uses this library directly not used in Python install in pip install Matplotlib script writes in the command line after used in Visualization of data. 
+Download CSV File Feedback Form Response
+Python Setup after Feedback Form CSV File download. CSV file is a very fast file in another file XLSX, Text file. CSV file download after file import this process next step by step show in this details. 
+For feedback form data analysis first go to Feedback Google form and all response data stored in Google sheet after the next process data sheet download click Google sheet Download data after selecting what type of data this project requires CSV File click CSV data download after the next task import Jupyter notebook.
+Step 2: Import Feedback form data 
+Feedback CSV file import in Python Jupyter Notebook This process will be the most challenging for this project Python language I have used Python libraries pandas powerful libraries open source data manipulation, data sorting, filter, any type of structure tabular form multiple operations perform and data analysis in this libraries most important uses. 
+
+
+Fig 1.4: Feedback form data import 
+
+Fig 1.4 Feedback form data import in Jupyter Notebook all details show. Firstly I have Jupyter notebook pandas libraries script run import pandas as pd after pd name all variables used in Jupyter notebook feedback_sheet new variable create after this variable assign path of CSV file directly not import in Jupyter notebook after read_csv() function use and bracket path of CSV file write in read_csv in str after assign in feedback sheet after run in this script after print feedback_sheet variable all file print in Jupyter notebook.
+Step 3: Data Filter need of useful data and store DataFrame
+Response data of Feedback form Python function used in filter and apply this function need of useful data chunk in new variable store. The Institute Feedback form is filled after data analysis in a chunk of the need of useful data this form is after multiple variables are stored in useful data.
+Feedback form response to data 4 types of skills 
+Communication
+Quality
+Competency
+Usefulness 
+
+These skills of data single worksheet show but this project big challenges in this type of skills in single worksheet response but the need of project these skills divide of multiple worksheets I have this problem solve in pandas filter function used ready for Python script in Jupyter notebook.
+
+
+Fig 1.4: Responses data Feedback Form
+
+Fig 1.4: Feedback form responses data filter process this type of data in a single sheet after the use of Python function and multiple variable stores in need of useful data.
+
+Fig 1.5: Chunk of useful data filter() function
+
+Feedback Form firstly filter in Communication of data in the response sheet use the filter function in Python to create a communication_to_match new variable in Python after this variable is assigned in need of data like store in Communication in str after another variable is created and use of import in the feedback form in CSV file store in feedback_sheet this variable used in filter of need of data after feedback_sheet variable use in filter function and brackets of need of data like communication_to_match variable match of data in store this variable after brackets close and run of this script after print of data and use of this variable in next task. 
+
+
+Fig 1.6: Filter communication data
+
+This function is used multiple times and after filtering the need for data and storing variable
+chunk_communication
+chunk_quality
+chunk_competency
+chunk_usefulness
+
+Next task variable data cleaning after again new step follows.
+
+Step 4: Data Transform Qualitative to Quantitative Data
+The next task is a very big challenge in this project last task useful data chunk fig 1.6 all response data qualitative type all this project last step faculty find faculty average rating check in multiple skills and multiple skills rating average in last step but response data show in qualitative type but the need of this project quantitative type data this is a big challenge in this project how will be data transpose in qualitative to quantitative. 
+Fig 1.6 shows the filter of skills data but this data qualitative type of data eg. with a communication skills rating of 5 types shown in detail.
+(5 (Very effective))
+(4 (Effective))
+(3 (Satisfactory))
+(2 (Ineffective))
+(1 (Natural))
+
+This type of data response in Feedback Form this problem but data is qualitative but this data converted in quantitative type like (5 (Very effective)) this data replace in 5 same all data replace is used in this method python already used in replace function this problem best solution in qualitative to quantitative data convert.
+
+
+Fig 1.7: Qualitative to Quantitative data replace() function
+
+Python replace() function replace in any type of value this function Feedback Form project use in data replace Fig 1.7 show in Python script how was data replace qualitative to quantitative. Data in this chunk of the sheet is replaced multiple times firstly create a variable a and assign in the replace function and brackets open and replace of data used and fill replace of value after the brackets close this process multiple times uses creates multiple variables and stores replace of value after communication_data variable create and assign replace of data.
+
+Fig 1.8 Feedback Form Qualitative to Quantitative data
+
+Automating Feedback from data analysis most important part of task data qualitative to quantitative convert Fig 1.8 All data is replaced and data is ready for faculty average rating this process is multiple times used in the Python replace function and applied in store of the chunk data variable
+chunk_communication
+chunk_quality
+chunk_competency
+chunk_usefulness
+This variable is all Quantitative converted into Qualitative data. This data was ready for the next task.
+
+Step 5: Row & Column Transpose
+The next task in all response data already prepared in the analysis of feedback form but all applicants fill in the form skills rating in particular faculty but faculty Name of all data responses in the column and fill of applicant of data row but this project requires Faculty of data Row and applicant of data column show this problem all row & column exchange of place project need this need fulfill of Python function use and function is transpose() all row & column data exchange of place.
+
+
+Fig 1.9: All row & column exchange transpose() function
+
+Fig 1.9 used in Python transpose() function and all row & column place in exchange this process used multiple times and prepares of faculty average rating calculate. This transposition without the use of exchange in rows & columns this process is very difficult after this process next task of Feedback from data analysis is to calculate the average rating.
+All chunks of useful variables in Feedback form data filter after multiple variables are assigned and this variable data is converted in qualitative to quantitative covert after transposing of row & column this data is ready for faculty average rating to calculate.
+
+communication_res
+quality_res
+competency_res
+usefulness_res
+
+
+Apply this function and chunk of data in Feedback Form all store of variable data row & column exchange and ready for all data.
+
+
+Fig 1.10: After row & column exchange
+
+Fig 1.10 All data samples in row & column exchange this process uses in all useful variables in skills of faculty rating. Feedback from all useful faculty skills rating data is transposed in rows & columns in this project all faculty rating data prepare.
+Next step all Feedback form faculty rating data operations are performed in calculating of average rating. Firstly all variables are stored in a list in Python and the particular skills rating of multiple applicants quantitative rating data total and stored in a new column. The same process all skills of faculty rating total and store new column.
+
+Step 6: Operation Perform in Faculty Rating 
+Last task all faculty rating data Qualitative to Quantitative data converted after row & column transpose after all skills rating data is ready for the next task this data is stored in a variable. This task is the most important part of this project Feedback from data analysis of all faculty multiple skills of rating quantitative data sum and store in new column after all variable store in list of sum of rating data.
+Firstly all variables are stored in Feedback Form data after operating faculty average rating. Feedback form data analysis project step -6 task most all faculty member skills of rating by applicant total ratting sum after faculty sum of average rating data operation use in Python sum() function and all rating of faculty total and new faculty name and total rating only two column show. This process Feedback Form all faculty skills of data use and after new variable create and all data total of faculty store in the list.
+
+
+Fig 1.11: Applicant response data sum
+
+Fig 1.11 Applicant response data sum use in sum() function and all faculty average rating data total. This process is Feedback form multiple times used in previous stores in faculty average rating data. Total 4 types of skills check in institute faculty. Next process all skills of data create a DataFrame in Python pandas libraries used all skills rating of total data store in the list uses for DataFrame but why DataFrame create in this project this answer read next paragraph.
+
+
+
+
+
+CALCULATE AVERAGE RATING OF FACULTY
+
+Faculty Average Rating Formula Apply in Faculty Average Rating Calculate
+
+Faculty average rating = Sum of total skills / Number of skills / total response
+
+Put this formula institute feedback form all skills sum after divided by total skills and divided by total response.
+ 
+Communication + Quality + Competency + Usefulness / Number of skills / Total Response
+
+Institute skills check in many types of skills Communication, Quality, Competency, and Usefulness total four types of skills last present in result in all skills average rating and average of total response of applicant. First all skills of data total after next process total of rating in all skills after divided by total skills and divided by the total response.
+
+
+Fig 1.12 average rating data assign in list
+
+Fig 1.12 All faculty rating data calculation put the formula in this project need of all skills rating data total after divide total skills and total responses this operation Python Jupyter notebook performs in required of all list of variable DataFrame create after this process show in all details.
+
+
+Fig 1.13 DataFrame Create
+
+Feedback Form data analysis all skills data list assign after all list skills and list merge in DataFrame and all after this process all skills data merge. DataFrame is a multiple row & column data merge in a single file and data export in CSV or Excel file and this file operation performs in mathematical and calculation of row & column. After DataFrame need of required all faculty members' average rating by total response of data.
+
+
+Fig 1.14 Average rating Calculate
+
+Fig 1.14 Python script all faculty rating data merge in pandas DataFrame after all skills rating data sum and axis by after divided by some skills and some response this process firstly create a variable feedback_total_all after assign in DataFrame and particular index by row sum after sum function use and divided by total response variable and divided by total skills after this process all faculty rating data new DataFrame create and all average rating data show.
+
+
+Fig 1.15 DataFrame shows Faculty Average Rating
+
+Automatic Feedback From data analysis this DataFrame all Faculty rating data calculated by total skills and total responses of applicant Fig 1.15 DataFrame show in result of Feedback form data analysis this DataFrame need of institute in any decision DataFrame data Export in Excel file institute requirement. The next step of DataFrame Export after all Faculty rating data visualization in Bar Graph.
+
+Fig 1.16 DataFrame data Export in Excel file
+
+Feedback form data analysis of all faculty average rating data Export in Excel file used in pandas libraries. DataFrame name to_excel function use and bracket file name write and Save in Excel file.
+Step 7: Visualizing and Presenting Results
+Feedback from data analysis last task all faculty rating data results describe and faculty rating check which faculty skills High & Low presented in Bar Graph this chart uses of qualitative and quantitative data use Chart insights in the length of the bar. This Project needs of bar graph but Python is directly not available in this graph Python famous libraries Matplotlib in data visualization Matplotlib creates multiple charts like pie charts, line charts, bar graphs, histograms, grant charts, etc. Jupyter notebook Matplotlib libraries download & install Write Pip install Matplotlib and ready for data visualization.
+Bar Graph Introduction 
+Bar Graph Categorical and quantitative type data using a bar graph represented in the length of the bar. Bar graph two types of create vertical and horizontal type. Bar graph x-axis and y-axis of data present.
+Feedback form data categorical and quantitative type of data category faculty and rating quantitative data Bar Graph x-axis fill in Faculty name and y-axis fill in the rating of data and Feedback form data analysis final result present.
+Python famous libraries Matplotlib create in Bar Graph and script wright firstly Jupyter notebook Matplotlib import in script wright import Matplotlib as plt, plt is a shortcut name use. All data of feedback form fill in Matplotlib. First Bar graph figure size decides how many sizes of bar graphs are used in figure size. plt Matplotlib function used in need of bar graph title, figure size, xlabel, ylabel, xticks, yticks, rotation, etc. Python script write and create in Bar Graph.
+
+
+Fig 1.17 Bar Graph Matplotlib script
+
+Fig 1.17 Matplotlib script created in Bar Graph first graph figure size set after bars variable create and assign in “feedback variable store in faculty name and rating” and plot bar use after title name writes in average rating by faculty after label set and sticks rotation 90 degrees set after yticks set and ylim between 4 to 5 rating show set of ylim by 4, 5 after plot show.
+
+
+
+
+Fig 1.18 Faculty Average Rating Describe
+
+The final results of the feedback form data analysis are presented in a bar graph. This project had multiple challenges, but solutions were found for each problem. The outcome is shown in the institute's feedback form data analysis.
+Feedback Form Questions data analysis
+Faculty average rating data analysis after Feedback form questions data analysis. Feedback form multiple questions asked in the institute course satisfies course duration, and online reference material satisfies any type of question asked in the institute. 
+Institute all questions objective type Feedback form questions after objective selection.
+Did you find the course useful?
+Yes
+No
+Some extent
+
+
+Online Reference Material?
+
+Sufficient
+Not so Sufficient
+Not at all Sufficient
+
+Resource Persons?
+
+Very Competent
+Competent
+Not so Competent
+
+Duration?
+
+Too long
+Too Short
+Just all right
+
+Broadening the approach?
+
+To a great extent
+To some extent
+Not at all
+
+Inspiring?
+
+To a great extent
+To some extent
+Not at all
+
+
+
+
+
+Skill Development?  
+
+Adequate
+No so adequate
+Not at all Adequate
+
+Did you acquire sufficient skill in developing e-content using generic tools?
+
+Adequate
+No so adequate
+Not at all Adequate
+
+Did you acquire sufficient knowledge regarding your role and responsibilities in higher education?
+
+Adequate
+No so adequate
+Not at all Adequate
+
+Do you have the confidence in developing research proposal and writing research articles?  
+To a great extent
+To some extent
+Not at all
+
+
+Curriculum of the Course?
+Sufficient
+Not Sufficient
+Not at all Sufficient
+
+How would you rate the overall programme?
+ 
+Good
+Very Good
+Poor
+
+Fig 1.19 Feedback Form Questions Response
+
+Fig 1.19 Show in Feedback form questions response column question and row response of applicant use in courses these data automating questions analysis and visualization in Python and prepare in Python Script.
+
+
+Fig 1.20 Feedback Questions data import
+
+Fig 1.20 shows in Feedback form all data import in Python pandas libraries used and Jupyter Notebook all data described. After all pandas function is used in the filter function and particular question name filter and these question data are appended in the list in Python.
+
+
+Fig 1.21 Question data filter and append in list
+
+After the question data filter and list append list and list of data all response data.
+Did you find the course useful?
+
+Yes
+No
+Some extent
+
+This Question Feedback form but questions response all data append in list this list of category wise data conditional statement use and particular question category data match and append in separate list question three type of data.
+
+
+Fig 1.22 Conditional statement uses Separate Data
+
+Create a variable course_list and null list assigned after use for loop and use course_res list range and this list data assign in sublist after course_list list “Yes”, “No”, and “Some extend” type multiple data but this data short and separate list append. List of data separate in use of python for loop with conditional statement use first create three variable Yes, No and Some_extent after use for loop and range of course_list used after conditional statement use i of all list data step by step print conditional use if i match of Yes append in one Yes variable same all variable use match of data in list and append one after this process create a total_cat variable after assign in Yes, No and Some_extent variable and add.
+
+Fig 1.23 Response data Category-wise Percentage Calculate
+
+Questions response data is separated into variables after counting data in all variables next step is all visualization of data in the required percentage of how many responses in Yes, No, and some extent need of percentage firstly create three variables same name as the previous variable Yes, No and some extent after calculating percentage in use formula.
+
+Percentage = Value * 100 / Total
+
+Apply this formula after calculating in percentage of response. Firstly Variable is created after the Value of Yes is used after being multiplied by 100 and divided by the total same process is applied in response to data after the percentage value is assigned to the variable after this process results in data present in a bar graph.
+
+
+Fig 1.24 Bar Graph Create Python Script
+
+Feedback form question data response all data present in percentage after final step result data present in bar graph use in Python famous libraries Matplotlib this libraries already import in jupyter notebook in the function of Matplotlib plot name. Matplotlib bar graph two dimensions of data x_axis use of category and y_axis value of percentage assign after yticks 10 to 100 assign then all values show in percentage use ylabel and title name use plt() function and set of title name font size after show plt.show() function use and run script after a show in a bar graph and result printing.
+
+
+
+Fig 1.25 Final Result Presenting
+Feedback form automatic data analysis of the response to questions data final result presented in Fig 1.25 and after the same process apply to multiple questions and finally automating data analysis and visualization in the feedback form.
+
