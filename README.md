@@ -2,7 +2,25 @@
 
 🔍 Problem Statement
 
-An institute conducting online courses collects structured feedback from participants. This includes ratings on faculty skills, course usefulness, material sufficiency, and more. Data analysis was previously manual using Excel, consuming ~4 hours per session.
+This case study focuses on automating the feedback data analysis process for an institute that offers multiple online courses. After each course, participants fill out a standardized feedback form containing multiple-choice questions related to faculty skills, course usefulness, and the adequacy of provided materials.
+
+Previously, analyzing this feedback manually in MS Excel took up to 4 hours per batch. The repetitive nature of the task, combined with the structured yet qualitative data, created inefficiencies and consumed valuable technical staff time.
+
+To resolve this, a Python-based automation system was developed. The system:
+
+Imports feedback CSV files
+
+Filters and cleans data
+
+Converts qualitative responses (like "Very Effective") to quantitative scores
+
+Transposes data for faculty-wise analysis
+
+Calculates average ratings
+
+Visualizes the results using bar graphs
+
+The project was managed using the Critical Path Method (CPM) to ensure step-by-step execution and scheduling. Major challenges included transforming subjective responses into analyzable metrics and handling row-column realignment. With the help of libraries like Pandas and Matplotlib, the entire process was automated—cutting down analysis time drastically and improving accuracy.
 
 🎯 Objective
 To automate the data processing, analysis, and visualization of feedback form responses using Python, reducing human effort, minimizing errors, and speeding up insights generation.
