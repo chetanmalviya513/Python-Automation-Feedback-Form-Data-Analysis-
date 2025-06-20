@@ -19,6 +19,7 @@ Critical Path Method – For project task planning
 Excel/CSV – Data Input/Output
 
 🚀 Project Workflow
+
 Step 1: 📅 Project Schedule Planning
 Defined project stages using Critical Path Method and visualized using a Gantt Chart.
 
