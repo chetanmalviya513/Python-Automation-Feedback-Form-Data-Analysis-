@@ -1,4 +1,4 @@
-📊 Case Study: Automating Feedback Form Data Analysis Using Python
+📊 Case Study: Streamlining Feedback Form Data Analysis Using Python Automation
 
 🔍 Problem Statement
 
