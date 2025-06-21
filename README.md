@@ -1,5 +1,8 @@
 📊 Case Study: Streamlining Feedback Form Data Analysis Using Python Automation
 
+Read the Full Case Study-
+https://medium.com/@chetanmalviya513/case-study-streamlining-feedback-form-data-analysis-using-python-automation-437dcc3a6868
+
 🔍 Problem Statement
 
 An educational institute offering online courses collects standardized feedback from participants after each course. The feedback form includes multiple-choice questions evaluating faculty skills, course usefulness, and the availability of materials.
